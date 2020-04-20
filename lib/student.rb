@@ -52,7 +52,10 @@ end
     student
   end
 
-  def self.new_from_db(array)
+  def self.new_from_db(row)
+    new_song = self.new
+    new_student_id = row[0]
+    new_student
     
 
 end
